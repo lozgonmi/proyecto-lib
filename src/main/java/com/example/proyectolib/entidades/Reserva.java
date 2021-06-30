@@ -1,13 +1,14 @@
 package com.example.proyectolib.entidades;
 
-import java.time.LocalDateTime;
+import java.time.Instant;
+
 
 public class Reserva {
 
-	private LocalDateTime fechaInicio;
-	private LocalDateTime fechaFin;
+	private Instant fechaInicio;
+	private Instant fechaFin;
 
-	public Reserva(LocalDateTime fechaInicio, LocalDateTime fechaFin) {
+	public Reserva(Instant fechaInicio, Instant fechaFin) {
 		this.fechaInicio = fechaInicio;
 		this.fechaFin = fechaFin;
 
@@ -17,19 +18,19 @@ public class Reserva {
 
 	}
 
-	public LocalDateTime getFechaInicio() {
+	public Instant getFechaInicio() {
 		return fechaInicio;
 	}
 
-	public void setFechaInicio(LocalDateTime fechaInicio) {
+	public void setFechaInicio(Instant fechaInicio) {
 		this.fechaInicio = fechaInicio;
 	}
 
-	public LocalDateTime getFechaFin() {
+	public Instant getFechaFin() {
 		return fechaFin;
 	}
 
-	public void setFechaFin(LocalDateTime fechaFin) {
+	public void setFechaFin(Instant fechaFin) {
 		this.fechaFin = fechaFin;
 	}
 
