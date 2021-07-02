@@ -8,6 +8,7 @@ public class Usuario {
 	private int numeroTelefono;
 	private String correo;
 	protected Collection<Reserva> reservas = new ArrayList<>();
+	protected Collection<Activo> activosUsuario = new ArrayList<>();
 	
 
 	public Usuario() {
@@ -44,6 +45,14 @@ public class Usuario {
 
 	public void setReservas(Collection<Reserva> reservas) {
 		this.reservas = reservas;
+	}
+
+	public Collection<Activo> getActivosUsuario() {
+		return activosUsuario;
+	}
+
+	public void setActivosUsuario(Collection<Activo> activosUsuario) {
+		this.activosUsuario = activosUsuario;
 	}
 	
 
