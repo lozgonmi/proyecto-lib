@@ -47,12 +47,12 @@ public class Usuario {
 		this.reservas = reservas;
 	}
 
-	public Collection<Activo> getActivosUsuario() {
+	public Collection<Activo> getActivos() {
 		return activos;
 	}
 
-	public void setActivosUsuario(Collection<Activo> activosUsuario) {
-		this.activos = activosUsuario;
+	public void setActivos(Collection<Activo> activos) {
+		this.activos = activos;
 	}
 	
 
